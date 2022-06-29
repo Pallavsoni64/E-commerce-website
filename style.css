@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+body{
+    font-family: 'Baloo Bhaijaan 2';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(210, 224, 225);
+}
+hr{
+    color: black;
+    width: 50vw;
+    height: 0.1rem;
+    background-color: black;
+    
+}
+.mainContainer{
+    padding-top: 2em;
+    margin-top: 3rem;
+    height: 100vh;
+}
+.header{
+    box-shadow: 2px 1px 5px 2px rgba(0, 0, 0, 0.612);
+   position: fixed;
+   top: 0;
+   width: 100%;
+    height: 1.2rem;
+    background-color: rgb(184, 229, 231);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+}
+a{
+    text-decoration: none; 
+}
+li{
+    list-style: none;  
+}
+.headerItem{
+
+    list-style: none;
+    margin: 1rem;
+    outline: none;
+    border: none;
+    padding: 0.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: rgb(9, 62, 63);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+.headerItem:hover{
+    background-color: transparent;
+    border:2px solid rgb(9, 62, 63) ;
+    color: rgb(9, 62, 63);
+  
+
+}
+.product{
+    box-shadow: 2px 1px 5px 2px rgba(0, 0, 0, 0.612);
+    gap: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+    margin:0 auto;
+    background-color:rgb(152, 186, 187) ;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+
+}
+.productColor{
+    margin-top: 0.5rem;
+    border-radius: 0.25rem;
+    background-color:cadetblue;
+    color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 23rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+img{
+    box-shadow: 2px 1px 5px 2px rgba(0, 0, 0, 0.612);
+    border-radius: 0.25rem;
+    height: 25rem;
+    width: 17rem;
+}
+.title{
+    font-weight: bold;
+}
+.cost{
+    font-weight: bold;
+}
+.btn1{
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    background-color: rgb(9, 62, 63);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+.btn1:hover{
+    background-color: transparent;
+    border:2px solid rgb(9, 62, 63) ;
+    color: rgb(9, 62, 63);
+    font-weight: bold;
+}
+.listing{
+    /* margin-top: 1rem; */
+    border-radius: 0.25rem;
+    background-color:cadetblue;
+    color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 23rem;
+    text-align: center;
+}
+.cart{
+    border: 2px solid black;
+    width: min-content;
+    font-size: xx-small;
+    border-radius: 10px;
+}
+.cartPrice{
+    text-align: center;
+  
+}
+.cartImage{
+    height: 15rem;
+    width: fit-content
+}
